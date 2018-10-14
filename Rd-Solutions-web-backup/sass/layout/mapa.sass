@@ -1,0 +1,42 @@
+.mapa
+	width: 100%
+	background: $dorado
+	padding: 10px 0
+	@media (max-width: 900px)
+		padding: 30px 15px
+	.texto
+		display: inline-block
+		width: calc(100% - 670px)
+		text-align: left
+		padding-right: 60px
+		position: relative
+		vertical-align: middle
+		@media (max-width: 900px)
+			width: 100%
+			padding: 0
+			margin-bottom: 20px
+		.cont-texto
+			height: 100%
+		.tit
+			@extend %raleway-light
+			font-size: 36px
+			line-height: 48px
+			margin-bottom: 50px
+			@media (max-width: 900px)
+				font-size: 24px
+				line-height: 30px
+				margin-bottom: 25px
+		.slogan
+			@extend %raleway-medium
+			font-size: 36px
+			line-height: 48px
+			@media (max-width: 900px)
+				font-size: 24px
+				line-height: 30px
+				margin-bottom: 20px
+	img 
+		width: 660px
+		display: inline-block
+		@media (max-width: 900px)
+			width: 100%
+			display: block

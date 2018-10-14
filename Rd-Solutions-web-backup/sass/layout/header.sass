@@ -1,0 +1,191 @@
+// main: ../main.sass
+
+.cabecera
+	width: 100%
+	background-color: $grisOscuro
+	box-shadow: 0 0 1px rgba(0,65,94,0.5)
+	padding: 5px 0
+	overflow: hidden
+	position: relative
+	h1
+		display: none
+	.logo 
+		width: 81px
+		display: inline-block
+	.cont
+		display: flex
+		align-items: center
+		justify-content: space-between
+.cont
+	max-width: 1140px
+	padding: 0 15px
+	margin: 0 auto
+.navegaciones
+	display: flex 
+	flex-direction: column-reverse
+	align-items: flex-end
+	@extend %animacion-suave 
+	@media (max-width: 767px)
+		position: absolute
+		top: -130vh
+		height: calc(100vh - 91px)
+		width: 100%
+		left: 0
+		background-color: $dorado
+		flex-direction: column
+		align-items: flex-start
+		padding: 20px 15px
+.cabecera.activo
+	overflow: initial
+	.navegaciones
+		top: 91px
+nav
+	display: inline-block
+	@media (max-width: 767px)
+		padding-top: 40px
+	ul
+		li
+			display: inline-block
+			padding: 0 10px
+			color: #fff
+			@media (max-width: 767px)
+				display: block
+			&:last-child
+				padding-right: 0
+			a
+				font-size: 18px
+				line-height: 30px
+				color: #fff
+				font-weight: 700
+				text-transform: uppercase
+				@media (max-width: 860px)
+					font-size: 16px
+					line-height: 24px
+				@media (max-width: 767px)
+					font-size: 18px
+					line-height: 40px
+				&:hover
+					color: $dorado
+			a.activo
+				color: $dorado
+				@media (max-width: 767px)
+					color: $grisTipografico
+			i 
+				color: #fff
+	.idioma
+		span 
+			opacity: .75
+.nav-secundaria
+	ul li a
+		font-size: 14px
+@media (max-width: 767px)
+	.home 
+		position: absolute
+		top: 26px
+		left: 20px
+.visible-mobile 
+	display: none
+	@media (max-width: 767px)
+		display: block
+@media (max-width: 767px)
+	.visible-desktop
+		display: none
+
+/*Hamburguesa*/
+.hamburger
+	display: none
+	@media (max-width: 767px)
+		display: block
+.hamburger,
+.hamburger:focus
+	float: right
+	font: inherit
+	color: inherit
+	text-transform: none
+	margin: 7px 0 0
+	border: 0
+	background-color: transparent
+	overflow: visible
+	cursor: pointer
+	outline: none
+	z-index: 99999999
+	transition: all 250ms ease-in-out
+
+.hamburger-box
+	display: inline-block
+	width: 40px
+	height: 40px
+	border-radius: 5px
+	position: relative
+	-webkit-transition: all .20s ease-in-out
+	-moz-transition: all .20s ease-in-out
+	-o-transition: all .20s ease-in-out
+	-ms-transition: all .20s ease-in-out
+	transition: all .20s ease-in-out
+
+.hamburger:hover .hamburger-box
+	background: none
+
+.hamburger-inner
+	display: block
+	margin-top: 1px
+	top: 50%
+	left: 0
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after
+	width: 40px
+	height: 6px
+	border-radius: 2px
+	background-color: #fff
+	position: absolute
+	transition-property: -webkit-transform
+	transition-property: transform
+	transition-property: transform, -webkit-transform
+	transition-duration: 0.15s
+	transition-timing-function: ease
+
+.hamburger-inner::before,
+.hamburger-inner::after
+	content: ''
+	display: block
+
+.hamburger-inner::before
+	top: -10px
+
+.hamburger-inner::after
+	bottom: -10px
+
+//Efecto de hambuger
+.hamburger-efecto .hamburger-box
+	-webkit-perspective: 80px
+	perspective: 80px
+
+.hamburger-efecto .hamburger-inner
+	transition: background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.2s cubic-bezier(0.645, 0.045, 0.355, 1)
+	transition: transform 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+	transition: transform 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.2s cubic-bezier(0.645, 0.045, 0.355, 1)
+
+.hamburger-efecto .hamburger-inner::after
+	transition: -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+	transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+	transition: transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1)
+
+.hamburger-efecto.is-active .hamburger-inner
+	background-color: transparent
+	-webkit-transform: rotateY(180deg)
+	transform: rotateY(180deg)
+
+.hamburger-efecto.is-active .hamburger-inner::before
+	-webkit-transform: translate3d(0, 10px, 0) rotate(45deg)
+	transform: translate3d(0, 10px, 0) rotate(45deg)
+
+.hamburger-efecto.is-active .hamburger-inner::after
+	-webkit-transform: translate3d(0, -10px, 0) rotate(-45deg)
+	transform: translate3d(0, -10px, 0) rotate(-45deg)
+
+@media(max-width: 479px)
+	.hamburger,
+	.hamburger:focus
+		margin: 0

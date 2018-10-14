@@ -1,0 +1,72 @@
+// main: ../main.sass
+
+// Familias tipográficas
+// Estrategia para mejorar la cargar de la página
+// https://www.zachleat.com/web/foft/
+
+// Stage 1
+// En primer lugar hay que configurar el archivo js/font.js (antes de seguir leyendo esto, pasá por fonts.js).
+// Cargamos las familias/variantes más importantes (y solo en regular) para que se visualicen primero ni bien entramos al sitio. El navegador va a simular el resto de las variantes hasta que se carguen en el Stage 2.
+.fonts-loaded body 
+    font-family: RalewayRegular, sans-serif
+
+// Stage 2
+// Cargamos el resto de las familias/variantes en una segunda etapa
+.fonts-b-loaded h1, .fonts-b-loaded .nav-principal ul li a
+    font-family: RalewayBold, sans-serif
+.fonts-b-loaded 
+    %raleway-bold
+        font-family: RalewayBold, sans-serif
+    %raleway-regular
+        font-family: RalewayRegular, sans-serif
+    %raleway-medium
+        font-family: RalewayMedium, sans-serif
+    %raleway-light
+        font-family: RalewayLight, sans-serif
+    %roboto-condensed
+        font-family: RobotoCondReg, sans-serif
+    %roboto-condensed-bold
+        font-family: RobotoCondBold, sans-serif
+    %roboto-condensed-light
+        font-family: RobotoCondLight, sans-serif
+
+// Cargo las tipografías con FontSquirrel (descargarlas de Google Fonts y generar variante por variante en FontSquirrel)
+@font-face 
+    font-family: RalewayLight
+    src: url('../fonts/raleway/raleway-light-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-light-webfont.woff') format('woff')
+    font-weight: 300
+    font-style: normal
+    
+@font-face 
+    font-family: RalewayRegular
+    src: url('../fonts/raleway/raleway-regular.woff2') format('woff2'), url('../fonts/raleway/raleway-regular.woff') format('woff')
+    font-weight: 400
+    font-style: normal
+
+@font-face 
+    font-family: RalewayMedium
+    src: url('../fonts/raleway/raleway-medium-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-medium-webfont.woff') format('woff')
+    font-weight: 600
+    font-style: normal
+
+@font-face 
+    font-family: RalewayBold
+    src: url('../fonts/raleway/raleway-bold-webfont.woff2') format('woff2'), url('../fonts/raleway/raleway-bold-webfont.woff') format('woff')
+    font-weight: 700
+    font-style: normal
+
+@font-face 
+    font-family: RobotoCondReg
+    src: url('../fonts/roboto-condensed/robotocondensed-regular-webfont.woff2') format('woff2'), url('../fonts/roboto-condensed/robotocondensed-regular-webfont.woff') format('woff')
+    font-weight: 400
+    font-style: normal
+@font-face 
+    font-family: RobotoCondBold
+    src: url('../fonts/roboto-condensed/robotocondensed-bold-webfont.woff2') format('woff2'), url('../fonts/roboto-condensed/robotocondensed-bold-webfont.woff') format('woff')
+    font-weight: 700
+    font-style: normal
+@font-face 
+    font-family: RobotoCondLight
+    src: url('../fonts/roboto-condensed/robotocondensed-light-webfont.woff2') format('woff2'), url('../fonts/roboto-condensed/robotocondensed-light-webfont.woff') format('woff')
+    font-weight: 300
+    font-style: normal

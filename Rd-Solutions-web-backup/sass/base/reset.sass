@@ -1,0 +1,38 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+ul
+  list-style: none
+  margin: 0
+a
+  text-decoration: none
+  &:hover, &:focus
+    text-decoration: none
+  @extend %animacion-suave
+
+.clear 
+  clear: both
+
+/* Animación suave */
+%animacion-suave 
+  -webkit-transition: all .35s ease-in-out
+  -moz-transition: all .35s ease-in-out
+  -o-transition: all .35s ease-in-out
+  -ms-transition: all .35s ease-in-out
+  transition: all .35s ease-in-out
+
+/*Oculta las slides de más mientras carga el JS*/
+.owl-carousel 
+  display: block
+.owl-carousel li:not(:first-child) 
+  display: none
+.owl-carousel.owl-loaded li:not(:first-child) 
+  display: block
+
+// Transicion entre páginas
+// html 
+//     opacity: 0 /* [1] */
+//     transition: opacity 0.5s ease /* [3] */
+// html.active 
+//     opacity: 1 /* [2] */

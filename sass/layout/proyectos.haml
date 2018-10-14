@@ -1,0 +1,88 @@
+.proyectos
+	font-size: 0
+	.mediana, .grande
+		padding: 50px 0
+	.cont-1170 	
+		position: relative
+	.col-izq 
+		width: 293px
+		display: inline-block
+		padding: 0 15px
+	.numero
+		@extend %roboto-condensed-light
+		font-size: 108px
+		line-height: 108px
+		color: $grisTipografico
+		display: block
+		margin-bottom: 50px
+		position: relative
+		text-align: left
+		&:before
+			content: ''
+			position: absolute
+			bottom: -30px
+			left: 0
+			width: 52px
+			height: 3px
+			background: $gris2
+	.subtit 
+		@extend %roboto-condensed
+		font-size: 22px //24px quedaba grande :/
+		line-height: 24px
+		color: $grisTipografico
+		text-transform: uppercase
+		text-align: left
+	.cont-modulo
+		width: calc(100% - 293px)
+		display: inline-block
+		vertical-align: top
+		@media (max-width: 900px)
+			width: 322px
+	.cont-modulo > ul 
+		display: flex
+		justify-content: center
+		.owl-item 
+			text-align: center
+		.icon 
+			font-size: 20px
+	.modulo-proy
+		width: 32%
+		max-width: 292px
+		padding: 0 15px
+		display: inline-block
+		vertical-align: top
+		text-align: left
+		@media (max-width: 900px)
+			width: 292px
+		img
+			width: 100%
+		.texto 
+			background: $dorado
+			height: 160px
+			padding: 10px
+			p
+				@extend %roboto-condensed-bold
+				font-size: 16px
+				line-height: 30px
+				span
+					@extend %roboto-condensed
+			p:first-child
+				font-size: 18px
+				line-height: 24px
+	.boton 
+		display: inline-block
+		@extend %roboto-condensed-bold
+		font-size: 16px
+		line-height: 36px
+		border-radius: 3px
+		color: $grisTipografico
+		border: solid 1px $grisTipografico
+		position: absolute
+		left: 15px
+		bottom: 0
+		padding: 0 10px
+		&:hover 
+			background-color: $grisTipografico
+			color: #fff
+	.mediana 
+		background: $celesteClaro

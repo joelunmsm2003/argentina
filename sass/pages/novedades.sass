@@ -1,0 +1,42 @@
+.novedades
+	padding: 50px 0 100px
+	min-height: calc(100vh - 200px)
+	h1 
+		@extend %raleway-bold
+		font-size: 48px
+		line-height: 60px
+		coor: $grisTipografico
+		text-transform: uppercase
+		margin-bottom: 30px
+.modulo-novedades
+	width: 100%
+	padding: 15px
+	border: solid 1px $gris2
+	margin-bottom: 20px
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	img
+		object-fit: cover
+		width: 269px
+		height: 207px
+		display: inline-block
+		vertical-align: top
+		@media (max-width: 767px)
+			display: block
+			margin: 0 auto
+	.cont-texto 
+		width: calc(100% - 275px)
+		display: inline-block
+		padding: 0 15px
+		text-align: left
+		@media (max-width: 767px)
+			width: 100%
+			max-width: 430px
+	.tit
+		font-size: 24px
+		line-height: 50px
+		margin-bottom: 5px
+	.descripcion
+		font-size: 16px
+		line-height: 24px

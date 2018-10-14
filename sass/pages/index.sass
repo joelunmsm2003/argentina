@@ -1,0 +1,92 @@
+.cont-1170
+	max-width: 1170px
+	margin: 0 auto
+	text-align: center
+	@media (max-width: 900px)
+		max-width: 630px
+.presentacion
+	text-align: center
+	padding: 35px 0
+	h2 
+		max-width: 850px
+		font-size: 24px
+		line-height: 36px
+		font-weight: 400
+		@extend %raleway-regular
+		color: $grisTipografico
+		margin: 0 auto
+		@media (max-width: 767px)
+			font-size: 20px
+			line-height: 30px
+			padding: 0 30px
+
+.novedades-home
+	width: 100%
+	height: 360px
+	display: flex
+	justify-content: center
+	align-items: center
+	background: url(../images/home/novedades-bg.jpg) center center no-repeat
+	background-size: cover
+	@media (max-width: 767px)
+		height: auto
+		padding: 20px 0
+	@media (max-width: 465px)
+		padding: 0
+	.slider-novedades 
+		max-width: 750px
+		width: 100%
+		padding: 10px
+		background: rgba(255, 255, 255, 1)
+		img
+			object-fit: cover
+			width: 269px
+			height: 207px
+			display: inline-block
+			vertical-align: top
+			@media (max-width: 767px)
+				display: block
+				margin: 0 auto
+		.texto 
+			width: calc(100% - 275px)
+			display: inline-block
+			padding: 0 15px
+			@media (max-width: 767px)
+				width: 100%
+				max-width: 430px
+		.tit
+			font-size: 24px
+			line-height: 50px
+			margin-bottom: 5px
+			color: $grisTipografico
+			@media (max-width: 767px)
+				line-height: 30px
+		.descripcion
+			font-size: 16px
+			line-height: 24px
+	.owl-nav
+		position: absolute
+		width: 100%
+		top: calc(50% - 15px)
+		color: #fff
+		i
+			font-size: 30px
+		span 
+			font-size: 0	
+	.owl-prev
+		position: absolute
+		left: -55px
+	.owl-next
+		position: absolute
+		right: -55px
+	.owl-dots
+		text-align: center
+	.owl-dot 
+		display: inline-block
+		border-radius: 50%
+		background: $grisOscuro
+		width: 15px
+		height: 15px
+		margin: 0 5px
+	.owl-dot.active 
+		background: $dorado

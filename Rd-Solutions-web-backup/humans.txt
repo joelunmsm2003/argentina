@@ -1,0 +1,17 @@
+
+/* EQUIPO */
+	Synapsis CI - Argentina
+
+	Front-End: La Frossia Francisco
+	Email: lafrossiafranciso [at] gmail.com
+	Ubicación: Capital Federal, Argentina.
+
+	Back-end: Andrés Damesón
+	Email: desarrollo [at] synapsis.com.ar
+	Ubicación: Capital Federal, Argentina.
+
+
+/* SITIO */
+	Estándares: HTML5, CSS3, Sass
+	Componentes: jQuery
+	Software: H5BP, Twitter Boostrap, CodeIgniter

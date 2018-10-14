@@ -1,0 +1,57 @@
+.servicios
+	background: $grisTipografico
+	padding: 40px 0
+	h3 
+		@extend %raleway-regular
+		font-size: 36px
+		line-height: 36px
+		color: $dorado
+	.listado-servicios
+		-moz-column-count: 2
+		-moz-columns: 2
+		-webkit-columns: 2
+		columns: 2
+		@media (max-width: 550px)
+			-moz-column-count: 1
+			-moz-columns: 1
+			-webkit-columns: 1
+			columns: 1			
+		li 
+			break-inside: avoid
+			font-size: 16px
+			line-height: 24px
+			color: #fff
+.tick-list 
+	li
+		padding-left: 20px
+		position: relative
+		&:before
+			content: '\e807'
+			position: absolute
+			left: 0
+			font-family: 'fontello'
+			font-size: 14px
+			color: $dorado
+.otros-proyectos
+	padding: 20px 0
+	h3 
+		@extend %roboto-condensed-bold
+		color: $grisTipografico
+		text-transform: uppercase
+		margin-bottom: 20px
+.listado-proy
+	-moz-column-count: 2
+	-moz-columns: 2
+	-webkit-columns: 2
+	columns: 2
+	@media (max-width: 550px)
+		-moz-column-count: 1
+		-moz-columns: 1
+		-webkit-columns: 1
+		columns: 1			
+	li 
+		@extend %raleway-regular
+		break-inside: avoid
+		font-size: 16px
+		line-height: 24px
+		color: $grisTipografico

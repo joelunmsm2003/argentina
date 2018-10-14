@@ -1,0 +1,232 @@
+[26-Jul-2017 16:27:26 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloa in /home/base/public_html/cms/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:30:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:44:16 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:49:07 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:49:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:49:29 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:49:46 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:53:18 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:54:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:55:17 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:55:26 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:55:28 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:55:29 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:55:39 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught exception 'mysqli_sql_exception' with message 'Access denied for user 'base_admin'@'localhost' (using password: YES)' in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php:76
+Stack trace:
+#0 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(76): mysqli_connect('localhost', 'base_admin', 'eZPORM5O', 'base_cms')
+#1 /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php(91): CI_DB_mysqli_driver->db_connect()
+#2 /home/base/public_html/cms/libs/codeigniter/database/DB_driver.php(115): CI_DB_mysqli_driver->db_pconnect()
+#3 /home/base/public_html/cms/libs/codeigniter/database/DB.php(148): CI_DB_driver->initialize()
+#4 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(346): DB('', NULL)
+#5 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(1171): CI_Loader->database()
+#6 /home/base/public_html/cms/libs/codeigniter/core/Loader.php(152): CI_Loader->_ci_autoloader()
+#7 /home/base/public_html/ in /home/base/public_html/cms/libs/codeigniter/database/drivers/mysqli/mysqli_driver.php on line 76
+[26-Jul-2017 16:57:24 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:04:43 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:04:46 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:06:00 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:07:00 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:07:02 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:12:30 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:15:31 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:15:34 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:19:50 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[26-Jul-2017 17:21:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function mb_strtolower() in /home/base/public_html/cms/core/views/includes/lista/acciones.php on line 14
+[27-Jul-2017 14:34:47 America/Argentina/Buenos_Aires] PHP Fatal error:  Class 'Categoria' not found in /home/base/public_html/cms/core/controllers/pdf.php on line 37
+[27-Jul-2017 18:18:12 America/Argentina/Buenos_Aires] PHP Fatal error:  Class 'Metas' not found in /home/base/public_html/cms/libs/codeigniter/core/Loader.php on line 303
+[27-Jul-2017 18:19:04 America/Argentina/Buenos_Aires] PHP Fatal error:  Class 'Metas' not found in /home/base/public_html/cms/libs/codeigniter/core/Loader.php on line 303
+[27-Jul-2017 18:20:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Class 'Metas' not found in /home/base/public_html/cms/libs/codeigniter/core/Loader.php on line 303
+[27-Jul-2017 18:20:06 America/Argentina/Buenos_Aires] PHP Fatal error:  Class 'Metas' not found in /home/base/public_html/cms/libs/codeigniter/core/Loader.php on line 303
+[27-Jul-2017 18:22:53 America/Argentina/Buenos_Aires] PHP Parse error:  syntax error, unexpected ')' in /home/base/public_html/cms/core/views/includes/lista/buscador.php on line 58
+[14-Mar-2018 13:59:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 13:07:21 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 13:07:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:50:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:50:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:52:31 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:52:31 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:52:40 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:52:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:53:46 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:53:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:53:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[15-Mar-2018 19:53:54 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:40:39 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:40:39 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:40:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:40:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:40:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:40:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:46:24 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2018 13:46:24 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Mar-2018 19:09:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Mar-2018 19:09:42 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Mar-2018 19:10:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[19-Mar-2018 19:10:42 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:50:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:50:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:26 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:34 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:43 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:49 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:51 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:51:57 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[13-Apr-2018 18:52:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:18:28 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:18:43 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:19:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:19:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:19:20 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:19:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:19:42 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:19:44 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:56:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:56:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:56:23 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:56:24 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:56:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Jun-2018 14:56:31 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[25-Jul-2018 10:56:49 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[14-Sep-2018 09:25:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:54:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:55:26 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:55:27 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:58:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:58:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:58:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[24-Sep-2018 20:58:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:51:24 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:51:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:20 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:32 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:52:42 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:53:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:53:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:53:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:53:12 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:53:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[08-Oct-2018 21:53:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Oct-2018 16:05:43 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[11-Oct-2018 16:05:44 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
